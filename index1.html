@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insert adjacent Html</title>
+</head>
+<body>
+    <!-- before begin -->
+    <div id="intro">
+        <!-- after begin -->
+        <h2>Heading</h2>
+        <p>This is a p tag</p>
+        <!-- before end -->
+    </div>
+    <!-- after end -->
+
+<script>
+    let elm=document.getElementById("intro")
+    let html="<h1> New h1 </h1>";
+    // elm.insertAdjacentHTML("beforebegin",html);
+    // elm.insertAdjacentHTML("afterbegin",html);
+    // elm.insertAdjacentHTML("beforeend",html);
+    elm.insertAdjacentHTML("afterend",html);
+</script>
+
+
+</body>
+</html>
+
+
+
+
+
+
+<!-- note ===> hmme output mei difference jb inspect ke element mei jaaenge tb dikhega -->
